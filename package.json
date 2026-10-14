@@ -8,7 +8,10 @@
     "test": "node --test extension/tests/*.test.mjs",
     "test:python": "uv run --with pytest pytest skill/tests/",
     "typecheck": "tsc -p extension/tsconfig.json",
-    "smoke": "node extension/smoke-load.mjs"
+    "smoke": "node extension/smoke-load.mjs",
+    "promote": "node scripts/promote.mjs --apply",
+    "promote:check": "node scripts/promote.mjs --check",
+    "promote:dry-run": "node scripts/promote.mjs"
   },
   "keywords": [
     "prime-agent",

@@ -1,0 +1,29 @@
+{
+  "name": "prime-typesafe-jev",
+  "version": "0.1.0",
+  "description": "System-1 decision model integration, safety governance, and host bridge for Prime Agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test extension/tests/*.test.mjs",
+    "test:python": "uv run --with pytest pytest skill/tests/",
+    "typecheck": "tsc -p extension/tsconfig.json",
+    "smoke": "node extension/smoke-load.mjs"
+  },
+  "keywords": [
+    "prime-agent",
+    "system-one",
+    "decision-model",
+    "typesafe-ai",
+    "jev",
+    "governance",
+    "harness",
+    "safety-floor"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "author": "lipfi",
+  "license": "MIT"
+}

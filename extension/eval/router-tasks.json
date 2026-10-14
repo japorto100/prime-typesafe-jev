@@ -1,0 +1,34 @@
+[
+  {
+    "id": "roles-coordination",
+    "prompt": "Wir müssen mehrere Subagenten-Rollen koordinieren. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["roles"]
+  },
+  {
+    "id": "skill-contract-audit",
+    "prompt": "Bitte prüfe, ob ein SKILL.md den Skill-Contract einhält (Frontmatter, Beschreibung, Grenzen). Welches verfügbare Skill hilft? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["skill-contract-validator"]
+  },
+  {
+    "id": "jev-boundary",
+    "prompt": "Wo liegen die Grenzen des JEV-Dienstes und wann sollte man ihn besser nicht einsetzen? Kurz beantworten, keine Dateien ändern.",
+    "allowed": [],
+    "kind": "abstention-knowledge",
+    "note": "J4 (30.09.): Wissens-/Abgrenzungsfrage; korrektes Routing ist none. Zählt als Abstention, nicht als positiver Routing-Treffer (getrennte Kennzahlen, s. eval/LABELS.md)."
+  },
+  {
+    "id": "debug-stall",
+    "prompt": "A test fails intermittently and I need to find the root cause with a hypothesis-driven approach. Which available skill fits? Answer briefly; do not modify files.",
+    "allowed": ["diagnose", "gitnexus-debugging", "golang-troubleshooting"]
+  },
+  {
+    "id": "no-skill-math",
+    "prompt": "Kurz: Wie viele Minuten haben 2,5 Stunden? Keine Dateien ändern.",
+    "allowed": []
+  },
+  {
+    "id": "no-skill-capital",
+    "prompt": "Sag kurz Hallo und nenne die Hauptstadt von Frankreich. Keine Dateien ändern.",
+    "allowed": []
+  }
+]

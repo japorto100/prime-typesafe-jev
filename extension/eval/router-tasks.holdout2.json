@@ -1,0 +1,82 @@
+[
+  {
+    "id": "holdout2-ursache",
+    "prompt": "Ein Dienst startet nach dem letzten Update nicht mehr und das Log zeigt nur einen generischen Fehler. Welches verfügbare Skill hilft, die Ursache systematisch einzugrenzen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["diagnose", "gitnexus-debugging"]
+  },
+  {
+    "id": "holdout2-issue-text",
+    "prompt": "Ich brauche eine verständliche Beschreibung und klare Annahmen zu einem gemeldeten Fehler, damit ein Ticket bzw. eine PRD daraus wird. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["to-issues", "to-prd"]
+  },
+  {
+    "id": "holdout2-nebenlaeufigkeit",
+    "prompt": "Mehrere Goroutinen greifen ohne Sperre auf eine gemeinsame Map zu und es kommt zu Datenrennen. Welches verfügbare Skill hilft bei Kanälen, Locks und Wettlaufsituationen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-concurrency", "golang-safety"]
+  },
+  {
+    "id": "holdout2-go-tests",
+    "prompt": "Unsere Go-Tests sind sprunghaft und ich will Tests mit Tabellen und Fixtures sauber aufsetzen. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-testing"]
+  },
+  {
+    "id": "holdout2-go-db",
+    "prompt": "Aus Go heraus sollen Datenbankabfragen sicher und nebenläufig laufen: Transaktionen, Isolationsstufen und Connection-Pool. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-database"]
+  },
+  {
+    "id": "holdout2-structs",
+    "prompt": "Ich entwerfe Go-Typen mit Interfaces, Einbettung und Pointern gegenüber Value-Receivern. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-structs-interfaces"]
+  },
+  {
+    "id": "holdout2-cache",
+    "prompt": "Häufige Zugriffe auf wenige Datensätze sollen mit einem In-Memory-Cache samt TTL und Eviction abgefedert werden. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-samber-hot"]
+  },
+  {
+    "id": "holdout2-context",
+    "prompt": "Abbruch und Timeouts einer Anfrage sollen sauber durch alle Schichten gereicht werden (context.Context). Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-context", "golang-concurrency"]
+  },
+  {
+    "id": "holdout2-forensik",
+    "prompt": "Nach einem Vorfall liegen ein Speicherabbild und Logs vor; ich brauche eine saubere Zeitlinie. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["competition-forensic-timeline"]
+  },
+  {
+    "id": "holdout2-code-durchsicht",
+    "prompt": "Ich möchte einen Pull Request durchsehen lassen: Was ändert er, welche Risiken hat der Merge, fehlen Tests? Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["gitnexus-pr-review"]
+  },
+  {
+    "id": "holdout2-architektur",
+    "prompt": "Nach dem Refactoring will ich nicht Zeile für Zeile prüfen, sondern strittige Architekturentscheidungen bewerten. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["decisions"]
+  },
+  {
+    "id": "holdout2-pdf",
+    "prompt": "Ein PDF mit Tabellen und Textstellen soll ausgewertet werden, inklusive Layout-Hinweisen und Belegstellen. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["pdf-inspector"]
+  },
+  {
+    "id": "holdout2-skill-bauen",
+    "prompt": "Wir wollen einen neuen Agent-Skill mit Anleitung und Hilfsskripten anlegen. Welches verfügbare Skill beschreibt das Vorgehen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["write-a-skill", "skill-creator"]
+  },
+  {
+    "id": "holdout2-module",
+    "prompt": "Eine gewachsene Codebasis soll tiefere Module und Refactoring-Chancen finden, um Kopplung zu reduzieren. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["improve-codebase-architecture", "gitnexus-refactoring"]
+  },
+  {
+    "id": "holdout2-go-sicherheit",
+    "prompt": "Go-Code soll auf Sicherheitslücken geprüft werden: Injection, Secrets, Krypto und Dateisystem-Zugriffe. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-security"]
+  },
+  {
+    "id": "holdout2-leistungsmessung",
+    "prompt": "Go-Funktionen sollen statistisch verglichen und Engpässe mit Profildaten gefunden werden (pprof, benchstat). Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-benchmark"]
+  }
+]

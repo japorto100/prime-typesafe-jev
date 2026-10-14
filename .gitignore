@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.venv/
+uv.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Logs & Sockets
+*.log
+*.sock
+*.sock.*
+
+# System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Runtime receipts & agent directories
+.prime/
+receipts/

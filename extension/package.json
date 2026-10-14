@@ -1,0 +1,8 @@
+{ "name": "prime-lab-typesafe-bridge", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "test": "node --test tests/*.test.mjs",
+    "smoke": "node smoke-load.mjs",
+    "digest": "node --test tests/staging-digest.test.mjs",
+    "digest:update": "UPDATE_STAGING_MANIFEST=1 node --test tests/staging-digest.test.mjs"
+  } }

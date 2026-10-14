@@ -1,0 +1,27 @@
+[
+  {
+    "id": "holdout-race-file",
+    "prompt": "Zwei Cron-Jobs schreiben gleichzeitig in dieselbe Datei und überschreiben sich gegenseitig. Welches verfügbare Skill hilft, die Ursache zu finden? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["diagnose", "gitnexus-debugging"]
+  },
+  {
+    "id": "holdout-skill-writing",
+    "prompt": "Wir brauchen eine wiederverwendbare Beschreibung für ein neues Hilfs-Skill. Welches verfügbare Skill hilft beim Schreiben? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["skill-creator", "write-a-skill"]
+  },
+  {
+    "id": "holdout-skill-contract",
+    "prompt": "Wo liegen die installierten Skills und wie prüfe ich, ob ihr Contract eingehalten wird? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["skill-contract-validator"]
+  },
+  {
+    "id": "holdout-math",
+    "prompt": "Kurz: Was ist 17 × 24? Keine Dateien ändern.",
+    "allowed": []
+  },
+  {
+    "id": "holdout-geography",
+    "prompt": "Kurz: Nenne die drei größten Städte Australiens. Keine Dateien ändern.",
+    "allowed": []
+  }
+]

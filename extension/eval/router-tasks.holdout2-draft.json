@@ -1,0 +1,82 @@
+[
+  {
+    "id": "holdout2-ursache",
+    "prompt": "Ein Dienst startet nach dem letzten Update nicht mehr und das Log zeigt nur einen generischen Fehler. Welches verfügbare Skill hilft, die Ursache systematisch einzugrenzen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["diagnose", "gitnexus-debugging"]
+  },
+  {
+    "id": "holdout2-issue-text",
+    "prompt": "Ich brauche eine verständliche Beschreibung und klare Annahmen zu einem gemeldeten Fehler, damit ein Ticket daraus wird. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["to-issues", "to-prd", "brainstorming"]
+  },
+  {
+    "id": "holdout2-nebenlaeufigkeit",
+    "prompt": "Mehrere Goroutinen greifen ohne Sperre auf eine gemeinsame Map zu und es kommt zu Datenrennen. Welches verfügbare Skill hilft bei Kanälen, Locks und Wettlaufsituationen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-concurrency", "golang-safety"]
+  },
+  {
+    "id": "holdout2-go-tests",
+    "prompt": "Unsere Go-Tests sind sprunghaft und ich will Tabellentests und Fixtures sauber aufsetzen. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-testing"]
+  },
+  {
+    "id": "holdout2-schema-umbau",
+    "prompt": "Wir müssen eine große Postgres-Tabelle ohne Ausfallzeit auf ein neues Schema umziehen. Welches verfügbare Skill beschreibt das Vorgehen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["database-migration"]
+  },
+  {
+    "id": "holdout2-typen",
+    "prompt": "Ich brauche bedingte Typen und gemappte Typen, um unsere API-Verträge im TypeScript-Typsystem abzubilden. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["typescript-advanced-types"]
+  },
+  {
+    "id": "holdout2-vektorsuche",
+    "prompt": "Wir wollen Embeddings in Postgres speichern und ähnliche Einträge schnell finden (HNSW-Index, Kosinus-Abstand). Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["pgvector-semantic-search"]
+  },
+  {
+    "id": "holdout2-zeitreihen",
+    "prompt": "Sensormesswerte laufen kontinuierlich ein und sollen komprimiert mit Aufbewahrungsregeln abgelegt werden. Welches verfügbare Skill hilft bei der Tabellenstruktur? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["setup-timescaledb-hypertables", "find-hypertable-candidates"]
+  },
+  {
+    "id": "holdout2-forensik",
+    "prompt": "Nach einem Vorfall liegen ein Speicherabbild und Logs vor; ich brauche eine saubere Zeitlinie. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["digital-forensics"]
+  },
+  {
+    "id": "holdout2-code-durchsicht",
+    "prompt": "Ich möchte einen Pull Request gründlich durchsehen lassen und Risiken vor dem Merge verstehen. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["open-code-review", "gitnexus-pr-review"]
+  },
+  {
+    "id": "holdout2-vortrag",
+    "prompt": "Ich brauche aus meinen Notizen ein Foliendeck mit Layouts und Sprechernotizen. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["pptx"]
+  },
+  {
+    "id": "holdout2-tabelle",
+    "prompt": "Eine Tabelle mit mehreren Blättern und Formeln soll ausgewertet und bereinigt werden. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["xlsx"]
+  },
+  {
+    "id": "holdout2-skill-bauen",
+    "prompt": "Wir wollen einen neuen Agent-Skill mit Anleitung und Hilfsskripten anlegen. Welches verfügbare Skill beschreibt das Vorgehen? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["write-a-skill", "skill-creator"]
+  },
+  {
+    "id": "holdout2-monorepo",
+    "prompt": "Mehrere Pakete in einem Repository sollen mit Workspaces und Build-Cache verwaltet werden. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["monorepo-management"]
+  },
+  {
+    "id": "holdout2-zugangsschutz",
+    "prompt": "Unsere HTTP-Endpunkte sollen nur mit gültigem Token erreichbar sein (JWT, Rollenprüfung). Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["auth-implementation-patterns", "axum-impl-auth-jwt", "golang-security"]
+  },
+  {
+    "id": "holdout2-leistungsmessung",
+    "prompt": "Ich will Go-Funktionen statistisch vergleichen und Engpässe mit Profildaten finden. Welches verfügbare Skill passt? Kurz antworten, keine Dateien ändern.",
+    "allowed": ["golang-benchmark"]
+  }
+]
